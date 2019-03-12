@@ -1,0 +1,70 @@
+h1 {
+    color: white !important;
+}
+
+body {
+    background-color: whitesmoke!important;
+    margin: 0px!important;
+}
+
+#picMe {
+    height:auto ;
+    width: 100% ;
+}
+
+.textSetting {
+      font-weight: 100!important;
+      color: black!important;
+      margin-right: 30px;
+      margin-left: 30px;
+}
+
+.textSettingH {
+      color: red!important;
+      font-family: 'Montserrat', sans-serif!important;
+      font-size: 3rem!important;
+}
+
+#mainNav {
+  font-size: 1.3rem;
+  font-weight: 100;
+  width: 100%;
+}
+
+#mainNavBrand {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#footer {
+    background-color:#202020;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.footerIcon {
+    font-size: 40px!important;
+    margin: 10px!important;
+}
+
+#resume {
+    padding: 50px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.portCard {
+    margin: 20px!important;
+    height: 550px;
+}
+
+.jumbotron {
+ font-family: 'Montserrat', sans-serif!important;
+ margin-bottom: 100px!important;
+ background-color: whitesmoke!important;
+ 
+}
+
+.jumbotron h1 {
+    color: #202020!important;
+    padding-bottom: 85px;
+}
