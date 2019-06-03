@@ -3,6 +3,7 @@
 var express=require("express"),
 app= express(),
 bodyParser=require("body-parser"),
+port = 3000;
 methodOverride=require("method-override");
 
 
@@ -42,6 +43,5 @@ app.get("/contact", function(req, res){ //takes u to the index (home page)
 
 
 
-app.listen(process.env.PORT, process.env.IP,  
-function(){console.log("server has started\n");} 
+app.listen(port, () => console.log('working')
 );
