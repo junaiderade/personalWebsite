@@ -3,13 +3,21 @@ h1 {
 }
 
 body {
-    background-color: whitesmoke!important;
+    /* background-color: whitesmoke!important; */
+    background-image: linear-gradient(black, white);
     margin: 0px!important;
 }
 
 #picMe {
     height:auto ;
     width: 100% ;
+}
+
+.textSettingSpecial {
+    font-weight: 100!important;
+    color: white!important;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .textSetting {
@@ -20,7 +28,7 @@ body {
 }
 
 .textSettingH {
-      color: red!important;
+      color: seagreen!important;
       font-family: 'Montserrat', sans-serif!important;
       font-size: 3rem!important;
 }
@@ -59,12 +67,14 @@ body {
 
 .jumbotron {
  font-family: 'Montserrat', sans-serif!important;
- margin-bottom: 100px!important;
- background-color: whitesmoke!important;
- 
+ background-image: linear-gradient(black, white); 
 }
 
 .jumbotron h1 {
-    color: #202020!important;
-    padding-bottom: 85px;
+    /* color: #202020!important; */
+    color: white !important;
+}
+
+.addPaddingHere {
+    padding-bottom: 300px;
 }
