@@ -16,7 +16,7 @@ app.use(express.static("public"));
 //---------------------------------
 app.get("/", function(req, res){ //takes u to the index (home page)
     
-    res.render("home.ejs");
+    res.render("newHome.ejs");
 });
 
 //RESUME

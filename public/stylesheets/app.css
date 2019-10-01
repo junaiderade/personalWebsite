@@ -1,38 +1,34 @@
-h1 {
-    color: white !important;
+/* LANDING PAGE */
+.carousel-caption h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
 }
+
+.carousel-caption {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.landtron{
+    background: white !important;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+
+}
+
+.darker {
+    background: black!important;
+    color: white;
+}
+/* ----- */
 
 body {
     /* background-color: whitesmoke!important; */
-    background-image: linear-gradient(black, white);
+    background-image: linear-gradient(skyblue,firebrick);
     margin: 0px!important;
 }
 
-#picMe {
-    height:auto ;
-    width: 100% ;
-}
-
-.textSettingSpecial {
-    font-weight: 100!important;
-    color: white!important;
-    margin-right: 30px;
-    margin-left: 30px;
-}
-
-.textSetting {
-      font-weight: 100!important;
-      color: black!important;
-      margin-right: 30px;
-      margin-left: 30px;
-}
-
-.textSettingH {
-      color: seagreen!important;
-      font-family: 'Montserrat', sans-serif!important;
-      font-size: 3rem!important;
-}
-
+/* NAVBAR */
 #mainNav {
   font-size: 1.3rem;
   font-weight: 100;
@@ -43,7 +39,9 @@ body {
   font-size: 1.5rem;
   font-weight: 100;
 }
+/* ----- */
 
+/* FOOTER */
 #footer {
     background-color:#202020;
     padding-top: 20px;
@@ -54,20 +52,20 @@ body {
     font-size: 40px!important;
     margin: 10px!important;
 }
+/* ----- */
 
-#resume {
-    padding: 50px;
-    font-family: 'Overpass', sans-serif;
-}
-
+/* PORTFOLIO */
 .portCard {
     margin: 20px!important;
     height: 550px;
 }
+/* ----- */
 
+/* CONTACT ME */
 .jumbotron {
  font-family: 'Montserrat', sans-serif!important;
- background-image: linear-gradient(black, white); 
+ background-image: linear-gradient(skyblue, firebrick); 
+ margin-bottom: 0rem !important;
 }
 
 .jumbotron h1 {
@@ -75,6 +73,7 @@ body {
     color: white !important;
 }
 
-.addPaddingHere {
+.addPaddingHere { 
     padding-bottom: 300px;
 }
+/* ----- */
